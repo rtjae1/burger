@@ -5,10 +5,9 @@
             <h1>Eat Da Burger!</h1>
         </div>
     </div>
-
-    <div class="row">
-        <div class="col-xs-4" class="burgers">
-
+    
+    <div class="col-xs-4" class="burgers">
+        <div class="row">
             {{#each burger_data}}
             {{#unless this.devoured}}
             <div class="col-xs-9 text centered">
@@ -27,7 +26,7 @@
             {{/each}}
         </div>
     </div>
-
+    
     <div class="col-md-4" id="burger-img">
         <img src="assets/img/burger.png" alt="burger" />
     </div>
