@@ -1,6 +1,33 @@
 body {
     background: yellow;
 }
-h1 {
-    
+/* top-bar text */
+#top-bar {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#burgers h1 {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+#menu-burgers {
+    align-content: right;
+}
+
+#burger-img {
+    display: center;
+    margin: auto;
+}
+
+#devoured h1 {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+#text-center-button {
+    border-top: 100px;
 }
