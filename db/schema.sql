@@ -1,5 +1,4 @@
-CREATE DATABASE burgers_db;
-USE burgers_db;
+USE  nsmo5i5pwnkhwnfq;
 
 CREATE TABLE burgers
 (
@@ -8,3 +7,6 @@ burger_name varchar(255) NOT NULL,
 devoured boolean,
 PRIMARY KEY (id)
 );
+
+ALTER TABLE burgers
+ADD date_created TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP;
